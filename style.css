@@ -1,0 +1,41 @@
+.lock{
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, gold, orange);
+    position: relative;
+    margin-top: 100px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.lock:before{
+    content: '';
+    width: 70px;
+    height: 60px;
+    border-radius: 35px 35px 0 0;
+    border: 20px solid #AAA;
+    border-bottom: none;
+    box-sizing: border-box;
+    position: absolute;
+    top: -60px;
+    left: 15px;
+}
+
+.keyhole{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #000;
+    margin-top: 20px;
+}
+
+.keyhole:before{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom: 30px solid #000;
+}
