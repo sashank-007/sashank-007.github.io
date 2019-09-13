@@ -7,6 +7,28 @@
     margin-top: 100px;
     line-height: 80px;
     text-align: center;
+    margin-left: 46%;
+    animation: rotation 2s infinite linear;
+}
+
+body{
+    background-image: linear-gradient(to left, darkcyan, darkviolet);
+}
+
+@keyframes rotation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
+
+h1{
+    font-family: "Bitstream Vera Sans Mono",sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .lock:before{
@@ -39,3 +61,63 @@
     border: 10px solid transparent;
     border-bottom: 30px solid #000;
 }
+
+.illusion{
+    margin-left: 46%;
+    margin-top: 100px;
+}
+
+.l1{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    animation: rotation 5s infinite linear;
+    border-color: darkred;
+}
+
+.l2{
+    height: 90px;
+    width: 90px;
+    border: 1px solid black;
+    margin: 3.5px;
+    animation: rotation 5s infinite linear;
+    border-color: aqua;
+}
+.l3{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    margin: 3.5px;
+    animation: rotation 5s infinite linear;
+    border-color: darkorange;
+}
+.l4{
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    margin: 3.5px;
+    animation: rotation 5s infinite linear;
+
+}
+.l5{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    margin: 3.5px;
+    animation: rotation 5s infinite linear;
+
+}
+.l6{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    margin: 3.5px;
+    animation: rotation 5s infinite linear;
+    border-color: darkmagenta;
+}
+/*.l2{*/
+/*    height: 90px;*/
+/*    width: 90px;*/
+/*    border: 1px solid black;*/
+/*    margin: 3.5px;*/
+/*}*/
